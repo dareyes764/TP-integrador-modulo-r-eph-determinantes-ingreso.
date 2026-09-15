@@ -44,7 +44,7 @@ library(glmnet)   # Ridge y LASSO
 # ---------------------------------------------------------------------------
 
 personas <- read_delim(
-  "personas_tot_urb_3T_2025.txt",
+  "personas_tot.urb_3T_2025.txt",
   delim = ";",
   locale = locale(decimal_mark = "."),
   show_col_types = FALSE
@@ -426,7 +426,7 @@ print(p_comp_coefs)
 # 3.6 - Interpretacion (guia para el informe en PDF - Parte 3)
 # ---------------------------------------------------------------------------
 #
-# En el informe (sin codigo) conviene cubrir, con los resultados de arriba:
+# En el informe conviene cubrir, con los resultados de arriba:
 #   - Magnitud e interpretacion de los coeficientes de m2 (en % aprox., ya
 #     que la variable dependiente esta en logaritmos): sexo, nivel educativo,
 #     categoria ocupacional, jornada.
