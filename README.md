@@ -53,4 +53,4 @@ El script está organizado en tres partes que corresponden al enunciado del TP:
 
 ## Informe
 
-El informe completo (sin código, con gráficos e interpretación) está en `informe/informe_TP_R.pdf`.
+El informe completo (sin código, con gráficos e interpretación) está en `informe/Informe_TP_R.pdf`.
